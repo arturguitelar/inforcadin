@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/bordas">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_selecionar"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="@dimen/margin_bottom_campos"/>
+
+    <Spinner
+        android:id="@+id/spinnerSelecionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/margin_bottom_campos" />
+
+    <Button
+        android:id="@+id/btnJogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_jogar" />
+</LinearLayout>

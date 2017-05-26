@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InForcaDin</string>
+
+    <string name="btn_jogar">Jogar</string>
+    <string name="btn_criar">Nova Forca</string>
+    <string name="btn_nova_forca">Criar uma nova Forca</string>
+    <string name="btn_listar">Listar Forcas</string>
+    <string name="btn_adicionar">+</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_alterar">Alterar</string>
+    <string name="btn_excluir">Excluir</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_jogar_novamente">Jogar mais uma vez!</string>
+
+    <string name="txt_selecionar">Selecionar Categoria</string>
+    <string name="txt_categoria">Categoria</string>
+    <string name="txt_forca">Palavra da forca</string>
+</resources>

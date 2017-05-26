@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/bordas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCategorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoria:"
+            android:layout_marginBottom="@dimen/bordas"/>
+
+        <ImageView
+            android:id="@+id/imgForca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/boneco_forca_01"
+            android:layout_marginBottom="@dimen/bordas"/>
+
+        <TextView
+            android:id="@+id/txtPalavraForca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_campos"
+            android:text="palavra"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtLetrasErradas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="letras erradas"
+            android:textSize="24sp"
+            android:layout_marginBottom="@dimen/margin_bottom_campos"/>
+
+        <Spinner
+            android:id="@+id/spnEscolherLetra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_campos"/>
+
+        <Button
+            android:id="@+id/btnConfirmarLetra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar Letra"
+            android:layout_marginBottom="@dimen/margin_bottom_campos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dicas:" />
+
+        <ListView
+            android:id="@+id/lvDicas"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
