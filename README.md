@@ -18,4 +18,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Apresentação da aplicação - https://killdragonsblog.wordpress.com/2017/05/28/inforcadin-aplicativo-android-criado-para-projeto-da-facul/
 
+Falando um pouco sobre a lógica por trás do jogo e o porquê de algumas decisões no código - https://killdragonsblog.wordpress.com/2017/06/18/inforcadin-batendo-um-papo-sobre-o-codigo-da-aplicacao/
+
+Falando um pouco sobre o tema da aplicação e as escolhas de arte - https://killdragonsblog.wordpress.com/2017/06/20/inforcadin-falando-sobre-design-arte-e-dando-algumas-dicas-d/
+
 Página no Facebook - https://www.facebook.com/inForcaDin
